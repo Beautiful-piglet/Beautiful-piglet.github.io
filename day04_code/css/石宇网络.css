@@ -1,0 +1,823 @@
+#box {
+    width: 1326px;
+    height: 5348px;
+    background-color: rgb(34, 240, 6);
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 1.头部框样式 */
+.header {
+    width: 100%;
+    height: 82px;
+    background-color: rgb(249, 249, 250);
+    background: url(../images/石宇网络/logo.png) no-repeat 76px 6px #fff;
+}
+.header ul {
+    height: 82px;
+    margin-left: 567px;
+    background-color: #fff;
+}
+.header ul li {
+    list-style: none;
+    float: left; 
+    height: 82px;
+    padding: 0 20px 15px 20px;
+    box-sizing: border-box;
+}
+.header ul li a {
+    display: block;
+     text-decoration: none;
+     height: 100%;
+     line-height: 82px;
+     font-size: 16px;
+     color: #000;
+}
+.header ul li a:hover {
+    color: red;
+    border-bottom: 1px solid rgb(231, 5, 5);
+}
+/* 2.main1样式 */
+#box .main1 {
+    width: 100%;
+    height: 911px;
+    background: url(../images/石宇网络/m1.png) 0 0 no-repeat #1b252e;
+    overflow: hidden;
+}
+#box .main1 h3 {
+     font-size: 26px;
+     margin: 754px 0 0 72px;
+     color: #fff;
+     font-weight: 500;
+}
+#box .main1 p {
+    width: 766px;
+    color: #fff;
+    line-height: 32px;
+    margin: 16px 0 0 72px;
+    float: left;
+}
+#box .main1 span {
+    width: 165px;
+    height: 54px;
+    background-color: #fff;
+    margin: 0 0 136px 78px;
+    float: left;
+    border-radius: 22px;
+    line-height: 54px;
+    text-align: center;
+}
+#box .main1 span a {
+    text-decoration: none;
+    color: #000;
+}
+#box .main1 span:hover  {
+    background-color: rgb(7, 22, 241);
+}
+
+/* 3.main2模块样式 */
+#box .main2 {
+    width: 100%;
+    height: 595px;
+    background-color: #fff;
+}
+/* 3.1我们的服务样式 */
+#box .main2 .main2_t {
+    width: 1180px;
+    height: 186px;
+    margin: 0 auto;
+    /* background-color: rgb(12, 137, 209); */
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+}
+#box .main2 .main2_t h3 {
+    height: 36px;
+    line-height: 36px;
+    margin-top: 90px;
+    font-size: 36px;
+}
+
+/*3.2.1 移动端网站设计模块样式 */
+#box .main2 .main2_b {
+    width: 1178px;
+    height: 410px;
+    /* background-color: rgb(230, 13, 132); */
+    margin: 0 auto;
+}
+#box .main2 .main2_b .server1 {
+    width: 280px;
+    height: 410px;
+    /* background-color: rgb(8, 173, 238); */
+    float: left;
+    background: url(../images/石宇网络/s1.jpg) no-repeat 78px 45px;
+}
+#box .main2 .main2_b .server1 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 212px;
+    text-align: center;
+}
+#box .main2 .main2_b .server1 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/*3.2.2 PC端网站建设模块样式 */
+#box .main2 .main2_b .server2 {
+    width: 280px;
+    height: 410px;
+    /* background-color: rgb(188, 238, 8); */
+    margin-left: 19px;
+    float: left;
+    background: url(../images/石宇网络/s2.jpg) no-repeat 78px 45px;
+}
+#box .main2 .main2_b .server2 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 212px;
+    text-align: center;
+}
+#box .main2 .main2_b .server2 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+/*3.2.3营销策划模块样式 */
+#box .main2 .main2_b .server3 {
+    width: 280px;
+    height: 410px;
+    /* background-color: rgb(13, 228, 192); */
+    margin-left: 19px;
+    float: left;
+    background: url(../images/石宇网络/s3.jpg) no-repeat 78px 45px;
+}
+#box .main2 .main2_b .server3 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 212px;
+    text-align: center;
+
+}
+#box .main2 .main2_b .server3 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+/*3.2.4 品牌形象模块样式 */
+#box .main2 .main2_b .server4 {
+    width: 280px;
+    height: 410px;
+    background-color: rgb(20, 23, 24);
+    margin-left: 19px;
+    float: left;
+    background: url(../images/石宇网络/s4.jpg) no-repeat 78px 45px;
+}
+#box .main2 .main2_b .server4 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 212px;
+    text-align: center
+}
+#box .main2 .main2_b .server4 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* 4.成功案例模块 */
+#box .main3 {
+    width: 100%;
+    height: 716px;
+    background-color: #ebebeb;
+}
+/* 4.1成功案例标题模块 */
+#box .main3 .main3_t {
+    width: 1180px;
+    height: 182px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#box .main3 .main3_t h3 {
+    height: 36px;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 68px;
+    text-align: center;
+}
+#box .main3 .main3_t p {
+    font-size: 16px;
+    text-align: center;
+    color: #9d9d9d;
+    margin-top: 22px;
+}
+/* 4.2成功案例案例展示模块 */
+#box .main3 .main3_b {
+    width: 1180px;
+    height: 444px;
+    /* background-color: rgb(199, 11, 11); */
+    margin: 0 auto;
+}
+#box .main3 .main3_b .shang {
+    width: 100%;
+    height: 212px;
+    /* background-color: rgb(18, 198, 204); */
+    float: left;
+}
+/* 4.2.1一号案例展示模块 */
+#box .main3 .main3_b .shang .shang1{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy1.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .shang .shang1 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+/* 4.2.1二号案例展示模块 */
+#box .main3 .main3_b .shang .shang2{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy2.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .shang .shang2 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+/* 4.2.1三号案例展示模块 */
+#box .main3 .main3_b .shang .shang3{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy3.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    margin-left: 29px;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .shang .shang3 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+/* 4.2.1四号案例展示模块 */
+#box .main3 .main3_b .shang .shang4{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy4.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    margin-left: 29px;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .shang .shang4 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+/* 4.2.1五号案例展示模块 */
+#box .main3 .main3_b .xia  {
+    width: 100%;
+    height: 212px;
+    /* background-color: rgb(22, 235, 15); */
+    margin-top: 20px;
+    float: left;
+}
+
+#box .main3 .main3_b .xia .xia1 {
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy5.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .xia .xia1 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+/* 4.2.1六号案例展示模块 */
+#box .main3 .main3_b .xia .xia2{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy6.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .xia .xia2 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+/* 4.2.1七号案例展示模块 */
+#box .main3 .main3_b .xia .xia3{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy7.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    margin-left: 29px;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .xia .xia3 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+
+/* 4.2.1八号案例展示模块 */
+#box .main3 .main3_b .xia .xia4{
+    width: 273px;
+    height: 212px;
+    background: url(../images/石宇网络/sy8.png) no-repeat 8px 8px #fff;
+    overflow: hidden;
+    float: left;
+    margin-left: 29px;
+    box-shadow: 1px 2px 5px #9d9d9d;
+}
+#box .main3 .main3_b .xia .xia4 p {
+    font-size: 14px;
+    margin-top: 186px;
+    text-align: center;
+}
+/* 5. main4模块样式 */
+#box .main4 {
+    width: 1000%;
+    height: 426px;
+    background: url(../images/石宇网络/m4.png) no-repeat 0 0;
+}
+/* 6.main5(关于我们的优势)模块 */
+#box .main5 {
+    width: 100%;
+    height: 597px;
+    background-color: #fff;
+}
+#box .main5 .main5_t {
+    width: 1180px;
+    height: 235px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* background-color: rgb(5, 238, 129); */
+}
+#box .main5 .main5_t h3 {
+    height: 32px;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 78px;
+    text-align: center;
+}
+#box .main5 .main5_t p {
+    font-size: 16px;
+    text-align: center;
+    color: #9d9d9d;
+    margin-top: 22px;
+}
+/*6.1 相机模块样式 */
+#box .main5 .main5_b {
+    width: 100%;
+    height: 362px;
+    /* background-color: rgb(230, 13, 132); */
+    margin: 0 auto;
+    /* background-color: rgb(122, 12, 248); */
+}
+#box .main5 .main5_b .adv1 {
+    width: 116px;
+    height: 362px;
+    /* background-color: rgb(8, 173, 238); */
+    float: left;
+    margin-left: 165px;
+    background: url(../images/石宇网络/i1.png) no-repeat 0 0 #fff;
+}
+#box .main5 .main5_b .adv1 h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 138px;
+    color: #f13a3a;
+    text-align: center;
+}
+#box .main5 .main5_b .adv1 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+/*6.2 团队成员模块样式 */
+#box .main5 .main5_b .adv2 {
+    width: 116px;
+    height: 362px;
+    /* background-color: rgb(8, 173, 238); */
+    float: left;
+    margin-left: 165px;
+    background: url(../images/石宇网络/i2.png) no-repeat 0 0 #fff;
+}
+#box .main5 .main5_b .adv2 h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 138px;
+    color: #f13a3a;
+    text-align: center;
+}
+#box .main5 .main5_b .adv2 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    color: #9b9b9b;
+}
+/*6.3 客户好评模块样式 */
+#box .main5 .main5_b .adv3 {
+    width: 116px;
+    height: 362px;
+    /* background-color: rgb(8, 173, 238); */
+    float: left;
+    margin-left: 165px;
+    background: url(../images/石宇网络/i3.png) no-repeat 0 0 #fff;
+}
+#box .main5 .main5_b .adv3 h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 138px;
+    color: #f13a3a;
+    text-align: center;
+}
+#box .main5 .main5_b .adv3 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    color: #9b9b9b;
+}
+/* 6.4赢得奖杯模块 */
+#box .main5 .main5_b .adv4 {
+    width: 116px;
+    height: 362px;
+    /* background-color: rgb(8, 173, 238); */
+    float: left;
+    margin-left: 165px;
+    background: url(../images/石宇网络/i4.png) no-repeat 0 0 #fff;
+}
+#box .main5 .main5_b .adv4 h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 138px;
+    color: #f13a3a;
+    text-align: center;
+}
+#box .main5 .main5_b .adv4 p {
+    font-size: 14px;
+    height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+/* 7.main6(给你最好的体验价值)模块 */
+#box .main6 {
+    width: 1326px;
+    height: 538px;
+    background: url(../images/石宇网络/m6.jpg) no-repeat 0 0;
+}
+
+/* 8. main7(联系我们)模块 */
+#box .main7 {
+    width: 100%;
+    height: 706px;
+    background-color: #fff;
+}
+#box .main7 .relatic1 {
+    width: 100%;
+    height: 298px;
+    /* background-color: rgb(205, 219, 10); */
+    overflow: hidden;
+}
+
+#box .main7 .relatic1 h3 {
+    font-size: 32px;
+    margin-top: 85px;
+    text-align: center;
+}
+#box .main7 .relatic1 p {
+    line-height: 16px;
+    text-align: center;
+    margin-top: 46px;
+    color: #707070;
+}
+#box .main7 .relatic1 h4 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+#box .main7 .relatic2 {
+    width: 1156px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* qq模块样式 */
+#box .main7 .relatic2 span {
+    display: inline-block;
+    width: 350px;
+    height: 90px;
+    border: 1px solid #ccc;
+}
+#box .main7 .relatic2 .qq{
+    background: url(../images/石宇网络/qq.png) no-repeat 48px 28px;
+    overflow: hidden;
+    float: left;
+}
+#box .main7 .relatic2 .qq p {
+    display: block;
+    height: 16px;
+    color: #686868;
+    margin: 30px 0 0 120px;
+}
+#box .main7 .relatic2 .qq i {
+    display: block;
+    font-style: normal;
+    font-size: 10px;
+    margin: 10px 0 0 120px;
+}
+
+/* 微博模块样式 */
+#box .main7 .relatic2 .wb{
+    background: url(../images/石宇网络/wb.png) no-repeat 48px 28px;
+    overflow: hidden;
+    margin: 0 50px;
+    float: left;
+}
+#box .main7 .relatic2 .wb p {
+    display: block;
+    height: 16px;
+    color: #686868;
+    margin: 30px 0 0 120px;
+}
+#box .main7 .relatic2 .wb i {
+    display: block;
+    font-style: normal;
+    font-size: 10px;
+    margin: 10px 0 0 120px;
+}
+
+/* 微信模块样式 */
+#box .main7 .relatic2 .wx{
+    background: url(../images/石宇网络/qq.png) no-repeat 48px 28px;
+    overflow: hidden;
+    float: left;
+}
+#box .main7 .relatic2 .wx p {
+    display: block;
+    height: 16px;
+    color: #686868;
+    margin: 30px 0 0 120px;
+}
+#box .main7 .relatic2 .wx i {
+    display: block;
+    font-style: normal;
+    font-size: 10px;
+    margin: 10px 0 0 120px;
+}
+#box .main7 .relatic3 {
+    width: 100%;
+    height: 318px;
+    /* background: rgb(45, 192, 218); */
+    background: url(../images/石宇网络/weixin.png) no-repeat 590px 68px;
+    overflow: hidden;
+}
+#box .main7 .relatic3 p {
+    display: inline-block;
+    margin: 222px 21px 0 21px;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+#box .main7 .relatic3 span {
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    border: 3px solid #000;
+}
+#box .main7 .relatic3 .zuo {
+    margin-left: 478px;
+    border-right: none !important;
+}
+#box .main7 .relatic3 .you {
+    border-left: none !important;
+}
+
+/* 9.main8样式 */
+#box .main8 {
+    width: 100%;
+    height: 512px;
+    background-color: #ebebeb;
+    overflow: hidden;
+    border-bottom: 2px solid #f13a3a;
+}
+
+#box .main8 .tu1 {
+    width: 273px;
+    height: 284px;
+    background-color: rgb(17, 230, 194);
+    background: url(../images/石宇网络/tu1.png) no-repeat 0 0 #fff;
+    margin: 100px 0 0 73px;
+    overflow: hidden;
+    float: left;
+}
+#box .main8 .tu1 h3 {
+    margin-top: 202px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+#box .main8 .tu1 p {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+#box .main8 .tu2 {
+    width: 273px;
+    height: 284px;
+    background-color: rgb(17, 230, 194);
+    background: url(../images/石宇网络/tu2.png) no-repeat 0 0 #fff;
+    margin: 100px 0 0 30px;
+    overflow: hidden;
+    float: left;
+}
+#box .main8 .tu2 h3 {
+    margin-top: 202px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+#box .main8 .tu2 p {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+#box .main8 .tu3 {
+    width: 273px;
+    height: 284px;
+    background-color: rgb(17, 230, 194);
+    background: url(../images/石宇网络/tu3.png) no-repeat 0 0 #fff;
+    margin: 100px 0 0 30px;
+    overflow: hidden;
+    float: left;
+}
+#box .main8 .tu3 h3 {
+    margin-top: 202px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+#box .main8 .tu3 p {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+
+#box .main8 .tu4 {
+    width: 273px;
+    height: 284px;
+    background-color: rgb(17, 230, 194);
+    background: url(../images/石宇网络/tu4.png) no-repeat 0 0 #fff;
+    margin: 100px 0 0 30px;
+    overflow: hidden;
+    float: left;
+}
+#box .main8 .tu4 h3 {
+    margin-top: 202px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+#box .main8 .tu4 p {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+/* 10.尾部样式 */
+#box .footer {
+    width: 100%;
+    height: 262px;
+    background-color: #1b252e;
+    margin: 0 auto;
+    border: 1px solid #313a43;
+}
+#box .footer .footer_t {
+    width: 1180px;
+    height: 140px;
+    border-bottom: 1px solid #313a43;
+    margin: 0 auto;
+    background: url(../images/石宇网络/f-1.png) no-repeat 60px 75px,
+                url(../images/石宇网络/f-2.png) no-repeat 340px 75px,
+                url(../images/石宇网络/f-3.png) no-repeat 635px 75px,
+                url(../images/石宇网络/f-4.png) no-repeat 950px 75px;
+}
+#box .footer .footer_t .p1 {
+    height: 12px;
+    float: left;
+    font-size: 12px;
+    color: #8b939d;
+    margin: 75px 0 0 92px;
+}
+#box .footer .footer_t .p2 {
+    height: 12px;
+    float: left;
+    font-size: 12px;
+    color: #8b939d;
+    margin: 75px 0 0 145px;
+}
+#box .footer .footer_t .p3 {
+    height: 12px;
+    float: left;
+    font-size: 12px;
+    color: #8b939d;
+    margin: 75px 0 0 130px;
+}
+#box .footer .footer_t .p4 {
+    height: 12px;
+    float: left;
+    font-size: 12px;
+    color: #8b939d;
+    margin: 75px 0 0 110px;
+}
+
+#box .footer .footer_b {
+    width: 1180px;
+    height: 120px;
+    margin: 0 auto;
+    /* background-color: rgb(204, 27, 27); */
+    overflow: hidden;
+}
+#box .footer .footer_b ul {
+    height: 14px;
+    width: 100%;
+    list-style: none;
+    margin: 28px 0 0 324px;
+}
+#box .footer .footer_b ul li {
+    float: left;
+    padding: 0 12px;
+}
+#box .footer .footer_b ul li a {
+    font-size: 14px;
+    color: #8b939d;
+    text-decoration: none;
+
+}
+#box .footer .footer_b  p {
+    display: inline-block;
+    width: 100%;
+    height: 14px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 10px;
+    color: #8b939d;
+    text-align: center;
+}
+#box .footer .footer_b i{
+    width: 1180px;
+    display: inline-block;
+    font-style: normal;
+    font-size: 14px;
+    color: #8b939d;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    #box {
+        width: 1350px;
+        height: 800px;
+        background-color: #67aeca;
+        margin: auto;
+        overflow: hidden;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+   
+    /* 1.标题样式 */
+    #box .title {
+        font-size: 46px;
+        color: #fff;
+        font-weight: normal;
+        margin-top: 40px;
+        text-align: center;
+    }
+    /* 2.副标题样式 */
+    #box .title2 {
+        font-size: 18px;
+        color: #fff;
+        line-height: 18px;
+        margin-top: 24px;
+        text-align: center;
+    }
+     /* 3.内容模块样式 */
+     .main {
+        width: 1140px;
+        height: 528px;
+        /* background-color: rgb(235, 130, 11); */
+        margin: auto;
+        margin-top: 54px;
+    }
+/*3.1 左边框模块样式 */
+    .main .main_l {
+        width: 550px;
+        height: 528px;
+        /* background-color: rgb(12, 48, 206); */
+        float: left;
+    }
+
+/* 3.1.1 SEO框模块样式 */
+    .main .main_l .box1 {
+        width: 550px;
+        height: 166px;;
+        /* background-color: rgb(209, 16, 16); */
+        background: url(../images/c1.png) no-repeat 0 0;
+        overflow: hidden;
+    }
+    .main .main_l .box1 h2 {
+        margin: 28px 0 0 188px;
+        font-size: 16px;
+    }
+    .main .main_l .box1 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 34px 0 188px;
+        color: #777;
+    }
+    .main .main_l .box1 span {
+        margin: 18px 28px 0 188px;
+        color: #ccc;
+    }
+    .main .main_l .box1 .date {
+        /* float: left; */
+        font-size: 10px;
+        margin-right: 214px;
+        font-style: normal;
+    }
+    .main .main_l .box1 .text {
+        font-size: 12px;
+        font-style: normal;
+    }
+
+
+/* 3.1.2微信小程序框模块样式 */
+    .main .main_l .box2 {
+        width: 550px;
+        height: 166px;;
+        /* background-color: rgb(209, 16, 16); */
+        background: url(../images/c2.png) no-repeat 0 0;
+        overflow: hidden;
+        margin: 15px 0;
+    }
+    .main .main_l .box2 h2 {
+        margin: 28px 0 0 188px;
+        font-size: 16px;
+    }
+    .main .main_l .box2 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 34px 0 188px;
+        color: #777;
+    }
+    .main .main_l .box2 span {
+        margin: 18px 28px 0 188px;
+        color: #ccc;
+    }
+    .main .main_l .box2 .date {
+        font-size: 10px;
+        margin-right: 214px;
+        font-style: normal;
+    }
+    .main .main_l .box2 .text {
+        font-size: 12px;
+        font-style: normal;
+    }
+
+
+/* 3.1.3小程序大趋势框模块样式 */
+    .main .main_l .box3 {
+        width: 550px;
+        height: 166px;;
+        /* background-color: rgb(209, 16, 16); */
+        background: url(../images/c3.png) no-repeat 0 0;
+        overflow: hidden;
+    }
+    .main .main_l .box3 h2 {
+        margin: 28px 0 0 188px;
+        font-size: 16px;
+    }
+    .main .main_l .box3 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 34px 0 188px;
+        color: #777;
+    }
+    .main .main_l .box3 span {
+        margin: 18px 28px 0 188px;
+        color: #ccc;
+    }
+    .main .main_l .box3 .date {
+        font-size: 10px;
+        margin-right: 214px;
+        font-style: normal;
+    }
+    .main .main_l .box3 .text {
+        font-size: 12px;
+        font-style: normal;
+    }
+
+    /* 3.2右边框模块样式 */
+    .main .main_r {
+        width: 550px;
+        height: 528px;
+        /* background-color: rgb(17, 246, 112); */
+        float: left;
+        margin-left: 40px;
+    }
+    /* 3.2.1 站群框模块样式 */
+    .main .main_r .box1 {
+        width: 550px;
+        height: 166px;;
+        /* background-color: rgb(209, 16, 16); */
+        background: url(../images/c4.png) no-repeat 0 0;
+        overflow: hidden;
+    }
+    .main .main_r .box1 h2 {
+        margin: 28px 0 0 188px;
+        font-size: 16px;
+    }
+    .main .main_r .box1 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 34px 0 188px;
+        color: #777;
+    }
+    .main .main_r .box1 span {
+        margin: 18px 28px 0 188px;
+        color: #ccc;
+    }
+    .main .main_r .box1 .date {
+        font-size: 10px;
+        margin-right: 214px;
+        font-style: normal;
+    }
+    .main .main_r .box1 .text {
+        font-size: 12px;
+        font-style: normal;
+    }
+
+
+/* 3.2.小程序大未来框模块样式 */
+    .main .main_r .box2 {
+        width: 550px;
+        height: 166px;;
+        /* background-color: rgb(209, 16, 16); */
+        background: url(../images/c5.png) no-repeat 0 0;
+        overflow: hidden;
+        margin: 15px 0;
+    }
+    .main .main_r .box2 h2 {
+        margin: 28px 0 0 188px;
+        font-size: 16px;
+    }
+    .main .main_r .box2 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 34px 0 188px;
+        color: #777;
+    }
+    .main .main_r .box2 span {
+        margin: 18px 28px 0 188px;
+        color: #ccc;
+    }
+    .main .main_r .box2 .date {
+        font-size: 10px;
+        margin-right: 214px;
+        font-style: normal;
+    }
+    .main .main_r .box2 .text {
+        font-size: 12px;
+        font-style: normal;
+    }
+
+
+/* 3.2.3小人框模块样式 */
+    .main .main_r .box3 {
+        width: 550px;
+        height: 166px;;
+        /* background-color: rgb(209, 16, 16); */
+        background: url(../images/c6.png) no-repeat 0 0;
+        overflow: hidden;
+    }
+    .main .main_r .box3 h2 {
+        margin: 28px 0 0 188px;
+        font-size: 16px;
+    }
+    .main .main_r .box3 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 16px 34px 0 188px;
+        color: #777;
+    }
+    .main .main_r .box3 span {
+        margin: 18px 28px 0 188px;
+        color: #ccc;
+    }
+    .main .main_r .box3 .date {
+        font-size: 10px;
+        margin-right: 214px;
+        font-style: normal;
+    }
+    .main .main_r .box3 .text {
+        font-size: 12px;
+        font-style: normal;
+    }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h2 class="title">News</h2>
+        <p class="title2">珠海站建设公司哪家好？超凡自始至终只专注技术与服务，
+            您有任何专业设想，我们都有专业技术，人员，方案为您精诚服务</p>
+        <div class="main">
+                <!-- 左边框模块结构 -->
+            <div class="main_l">
+                <!-- SEO框模块结构 -->
+                <div class="box1">
+                     <h2>网站域名1不备案会对SEO优化有影响吗</h2>
+                     <p>首先，小编来明确告诉大家，网站备案对SEO无直接影响。
+                         其实对于百度搜索引擎来说，网络是完全开放的不管网站备案还...</p>
+                     <span><i class="date">2019.02.28</i> <i class="text">建站知识</i></span>   
+                </div>
+                <!-- 微信小程序框模块结构 -->
+                <div class="box2">
+                      <h2>微信小程序开发制作的好处有哪些？</h2>
+                      <p>微信小程序的发展，给企业营销带来了新的方向，由于小程序无需下载安装
+                          用完即走的优点受到广大消费者的欢迎，并且，小程序...</p>
+                      <span><i class="date">2019.02.13</i> <i class="text">网络营销</i></span>   
+                </div>
+                <!-- 小程序大趋势框模块结构 -->
+                <div class="box3">
+                        <h2>线下商户通用小程序开发有什么趋势？为...</h2>
+                        <p>线下商户通过小程序开发有什么趋势？线下商户为什么要做餐饮小程序开发？
+                            珠海专业的小程序开发公司超凡科技分享一下小程序开...</p>
+                        <span><i class="date">2019.02.28</i> <i class="text">建站知识</i></span>   
+                </div>
+            </div>
+
+                <!-- 右边框模块结构 -->
+            <div class="main_r">
+                <!-- 站群框模块结构 -->
+                <div class="box1">
+                        <h2>怎么做站群网站，站群SEO的注意事项</h2>
+                        <p>站群网站是什么？站群指的是一个人或一个团队搭建并操作多个网站（几个到百个）
+                            ，用大量一级域名和二级域名复制出若干网站运营...</p>
+                        <span><i class="date">2019.02.28</i> <i class="text">建站知识</i></span>   
+                   </div>
+                   <!-- 小程序大未来框模块结构 -->
+                   <div class="box2">
+                         <h2>珠海小程序开发大概需要多少费用？</h2>
+                         <p>现在小程序非常火，这是毋庸置疑的，毕竟这是一个趋势，那么对于没有开发能力
+                             的传统企业来说，开发一个适合自己的小程序到底...</p>
+                         <span><i class="date">2019.02.13</i> <i class="text">建站知识</i></span>   
+                   </div>
+                   <!-- 小人框模块结构 -->
+                   <div class="box3">
+                           <h2>珠海企业网站建设如何选择一家靠谱的网...</h2>
+                           <p>谈起“想做网站选择哪家网站建设公司”这个命题，是很多先做网站
+                               的企业所关心的话题，现在市场上网站...</p>
+                           <span><i class="date">2019.02.28</i> <i class="text">建站知识</i></span>   
+                   </div>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
