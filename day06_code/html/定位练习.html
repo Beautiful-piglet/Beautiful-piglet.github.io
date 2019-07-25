@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            position: relative;
+        }
+        .box span {
+            position: absolute;
+            left: 81px;
+            top: 85px;
+            color: #fff;
+            width: 120px;
+            height: 40px;
+            background-color: rgba(17, 238, 10, 0.5);
+            line-height: 40px;
+            text-align: center;
+        }
+        .box1 {
+            position: absolute;
+            width: 283px;
+            height: 211px;
+            background-color: rgb(245, 17, 157);
+            top: 0;
+            text-align: center;
+            display: none;
+            animation: xianshi 1s;
+        }
+        .box:hover .box1 {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="../images/cf-images/超凡科技_03.png" alt="">
+        <span>超凡科技公司</span>
+        <div class="box1">
+            超凡科技，超乎你想像
+        </div>
+    </div>
+</body>
+
+</html>

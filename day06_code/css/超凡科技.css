@@ -1,0 +1,872 @@
+#box {
+    width: 100%;
+    height: 5302px;
+    /* background-color: rgb(8, 235, 8); */
+}
+#box .content {
+    width: 1156px;
+    height: 100%;
+    /* background-color: rgb(224, 17, 104); */
+    margin: 0 auto;
+}
+
+/* header 模块样式 ----开始 */
+#box .header {
+    width: 100%;
+    height: 83px;
+    /* background-color: rgb(19, 175, 154); */
+}
+.header .content .logo {
+    width: 420px;
+    height: 100%;
+    background: url(../images/cf-images/logo.png) no-repeat 0 1px;
+    text-indent: -999px;  
+}
+.header .content .nav {
+    margin-left: 81px;
+}
+.header .content .nav li {
+    width: 48px;
+    height: 83px;
+    font-size: 12px;
+    margin: 0 18px;
+    vertical-align: middle;
+    line-height: 83px;
+}
+.header .content .nav li a {
+    width: 100%;
+    height: 100%;
+    color: #000;
+    text-align: center;
+    display: block;
+}
+.header .content .nav .english {
+    display: none;
+}
+.header .content .nav li:hover .china {
+     display: none;
+}
+.header .content .nav li:hover .english {
+    display: block;
+    text-transform: uppercase;
+}
+/* header 模块样式 ----结束 */
+
+
+/* banner 模块样式 ----开始 */
+#box .banner {
+   width: 100%;
+   height: 448px;
+   background: url(../images/cf-images/cf-banner.jpg) no-repeat center center;
+}
+/* banner 模块样式 ----结束 */
+
+
+/* main1 模块样式 ----开始 */
+#box .main1 {
+    width: 100%;
+    height: 726px;
+    background-color: #fff;
+}
+.main1 .content {
+    background: url(../images/cf-images/bus_h2.jpg) no-repeat center 42px;
+    overflow: hidden;
+}
+.main1 .content h3 {
+    height: 78px;
+    font-size: 18px;
+    color: #666;
+    line-height: 24px;
+    margin-top: 107px;
+    text-align: center;
+}
+.main1 .content .content1 {
+    width: 100%;
+    height: 218px;
+    /* background-color: rgb(218, 65, 65); */
+    margin-top: 56px;
+}
+.main1 .content .content1 .tu1,
+.main1 .content .content1 .tu2,
+.main1 .content .content1 .tu3{
+    position: relative;
+}
+.main1 .content .content1 .xiao {
+    position: absolute;
+    width: 228px;
+    height: 70px;
+    background-color: rgba(21, 82, 216,0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 70px;
+}
+.main1 .content .content1 p {
+    position: absolute;
+    width: 352px;
+    height: 100%;
+    background-color: rgb(53, 12, 236);
+    top: 0;
+    text-align: center;
+    display: none;
+}
+.main1 .content .content1 .tu1:hover p {
+    display: block;
+}
+.main1 .content .content1 .tu2:hover p {
+    display: block;
+}
+.main1 .content .content1 .tu3:hover p {
+    display: block;
+}
+.main1 .content .content1 div {
+    width: 350px;
+    height: 100%;
+    float: left;
+}
+.main1 .content .content1 .tu2 {
+    margin: 0 40px;
+}
+
+
+.main1 .content .content2 {
+    width: 100%;
+    height: 218px;
+    /* background-color: rgb(218, 65, 65); */
+    margin-top: 5px;
+}
+.main1 .content .content2 .tu1,
+.main1 .content .content2 .tu2,
+.main1 .content .content2 .tu3{
+    position: relative;
+}
+.main1 .content .content2 .xiao {
+    position: absolute;
+    width: 228px;
+    height: 70px;
+    background-color: rgba(21, 82, 216,0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 70px;
+}
+.main1 .content .content2 p {
+    position: absolute;
+    width: 352px;
+    height: 100%;
+    background-color: rgb(53, 12, 236);
+    top: 0;
+    text-align: center;
+    display: none;
+}
+.main1 .content .content2 .tu1:hover p {
+    display: block;
+}
+.main1 .content .content2 .tu2:hover p {
+    display: block;
+}
+.main1 .content .content2 .tu3:hover p {
+    display: block;
+}
+.main1 .content .content2 div {
+    width: 350px;
+    height: 100%;
+    float: left;
+}
+.main1 .content .content2 .tu2 {
+    margin: 0 40px;
+}
+/* main1 模块样式 ----结束 */
+
+/*main2 模块样式 ----开始 */
+#box .main2 {
+    width: 100%;
+    height: 764px;
+    background-color: #ebeff1;
+}
+.main2 .content {
+    background: url(../images/cf-images/clien_h2.jpg) no-repeat center 42px;
+    overflow: hidden;
+}
+.main2 .content  h3 {
+    height: 18px;
+    color: #666666;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 112px;
+}
+.main2 .content table {
+    margin: 0 auto;
+    margin-top: 58px;
+    width: 1142px;
+    height: 506px;
+    /* background-color: rgb(218, 9, 9); */
+}
+
+
+/*main2 模块样式 ----结束 */
+
+
+/* main3 模块样式 ----开始 */
+#box .main3 {
+    width: 100%;
+    height: 682px;
+    /* background-color: #fff; */
+}
+.main3 .content {
+    background: url(../images/cf-images/work_h2.jpg) no-repeat center 42px;
+    overflow: hidden;
+}
+.main3 .content  h3 {
+    height: 18px;
+    color: #666666;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 112px;
+}
+.main3 .content table {
+    margin: 0 auto;
+    margin-top: 58px;
+    width: 1142px;
+    height: 423px;
+    /* background-color: rgb(218, 9, 9); */
+}
+.main3 .content table tr td {
+    width: 283px;
+    height: 211px;
+}
+
+/* main3 模块样式 ----结束 */
+
+
+
+/* main4 模块样式 ----开始 */
+#box .main4 {
+    width: 100%;
+    height: 800px;
+    background: url(../images/cf-images/ind_news_bg.jpg) no-repeat center 0;
+}
+#box .main4 .content {
+    background: url(../images/cf-images/news_h2.jpg) no-repeat center 42px;
+    overflow: hidden;
+}
+.main4 .content  h3 {
+    height: 18px;
+    color: #666666;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 112px;
+}
+.main4 .content .news {
+    width: 100%;
+    height: 528px;
+    /* background-color: #fff; */
+    margin-top: 56px;
+}
+.main4 .content .news .news_left {
+    margin-left: 5px;
+    width: 550px;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+}
+
+.main4 .content .news .news_left .news_left1 {
+    width: 100%;
+    height: 166px;
+    background-color: #fff;
+    background: url(../images/cf-images/man4-1.jpeg) no-repeat 0 0;
+    overflow: hidden;
+} 
+.main4 .content .news .news_left .news_left1 h4 {
+    margin: 28px 0 0 190px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.main4 .content .news .news_left .news_left1 p {
+    font-size: 12px;
+    color: #777;
+    margin: 12px 32px 0 190px;
+    line-height: 22px;
+    width: 326px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main4 .content .news .news_left .news_left1 .date {
+    font-size: 12px;
+    color: #ccc;
+    height: 12px;
+    margin: 12px 30px 18px 190px;
+}
+.main4 .content .news .news_left .news_left1 .date span {
+    margin-left: 210px;
+}
+
+
+
+.main4 .content .news .news_left .news_left2 {
+    width: 100%;
+    height: 166px;
+    background-color: #fff;
+    background: url(../images/cf-images/man4-1.jpeg) no-repeat 0 0;
+    overflow: hidden;
+    margin: 15px 0;
+} 
+.main4 .content .news .news_left .news_left2 h4 {
+    margin: 28px 0 0 190px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.main4 .content .news .news_left .news_left2 p {
+    font-size: 12px;
+    color: #777;
+    margin: 12px 32px 0 190px;
+    line-height: 22px;
+    width: 326px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main4 .content .news .news_left .news_left2 .date {
+    font-size: 12px;
+    color: #ccc;
+    height: 12px;
+    margin: 12px 30px 18px 190px;
+}
+.main4 .content .news .news_left .news_left2 .date span {
+    margin-left: 210px;
+}
+
+
+
+.main4 .content .news .news_left .news_left3 {
+    width: 100%;
+    height: 166px;
+    background-color: #fff;
+    background: url(../images/cf-images/man4-1.jpeg) no-repeat 0 0;
+    overflow: hidden;
+} 
+.main4 .content .news .news_left .news_left3 h4 {
+    margin: 28px 0 0 190px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.main4 .content .news .news_left .news_left3 p {
+    font-size: 12px;
+    color: #777;
+    margin: 12px 32px 0 190px;
+    line-height: 22px;
+    width: 326px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main4 .content .news .news_left .news_left3 .date {
+    font-size: 12px;
+    color: #ccc;
+    height: 12px;
+    margin: 12px 30px 18px 190px;
+}
+.main4 .content .news .news_left .news_left3 .date span {
+    margin-left: 210px;
+}
+
+
+.main4 .content .news .news_right{
+    width: 550px;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    margin-left: 50px;
+}
+
+.main4 .content .news .news_right .news_right1 {
+    width: 100%;
+    height: 166px;
+    background-color: #fff;
+    background: url(../images/cf-images/man4-1.jpeg) no-repeat 0 0;
+    overflow: hidden;
+} 
+.main4 .content .news .news_right .news_right1 h4 {
+    margin: 28px 0 0 190px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.main4 .content .news .news_right .news_right1 p {
+    font-size: 12px;
+    color: #777;
+    margin: 12px 32px 0 190px;
+    line-height: 22px;
+    width: 326px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main4 .content .news .news_right .news_right1 .date {
+    font-size: 12px;
+    color: #ccc;
+    height: 12px;
+    margin: 12px 30px 18px 190px;
+}
+.main4 .content .news .news_right .news_right1 .date span {
+    margin-left: 210px;
+}
+
+
+
+.main4 .content .news .news_right .news_right2 {
+    width: 100%;
+    height: 166px;
+    background-color: #fff;
+    background: url(../images/cf-images/man4-1.jpeg) no-repeat 0 0;
+    overflow: hidden;
+    margin: 15px 0;
+} 
+.main4 .content .news .news_right .news_right2 h4 {
+    margin: 28px 0 0 190px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.main4 .content .news .news_right .news_right2 p {
+    font-size: 12px;
+    color: #777;
+    margin: 12px 32px 0 190px;
+    line-height: 22px;
+    width: 326px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main4 .content .news .news_right .news_right2 .date {
+    font-size: 12px;
+    color: #ccc;
+    height: 12px;
+    margin: 12px 30px 18px 190px;
+}
+.main4 .content .news .news_right .news_right2 .date span {
+    margin-left: 210px;
+}
+
+
+
+.main4 .content .news .news_right .news_right3 {
+    width: 100%;
+    height: 166px;
+    background-color: #fff;
+    background: url(../images/cf-images/man4-1.jpeg) no-repeat 0 0;
+    overflow: hidden;
+} 
+.main4 .content .news .news_right .news_right3 h4 {
+    margin: 28px 0 0 190px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.main4 .content .news .news_right .news_right3 p {
+    font-size: 12px;
+    color: #777;
+    margin: 12px 32px 0 190px;
+    line-height: 22px;
+    width: 326px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.main4 .content .news .news_right .news_right3 .date {
+    font-size: 12px;
+    color: #ccc;
+    height: 12px;
+    margin: 12px 30px 18px 190px;
+}
+.main4 .content .news .news_right .news_right3 .date span {
+    margin-left: 210px;
+}
+
+
+
+
+/* main4 模块样式 ----结束 */
+
+
+/* main5 模块样式 ----开始 */
+#box .main5 {
+    width: 100%;
+    height: 912px;
+    background-color: #fff;
+}
+
+.main5 .content .main5_t {
+      width: 100%;
+      height: 325px;
+      background-color: rgb(34, 223, 27);
+      
+      background: url(../images/cf-images/exp_h2.jpg) no-repeat center 42px;
+      overflow: hidden;
+}
+.main5 .content h3 {
+    height: 78px;
+    font-size: 18px;
+    color: #666;
+    line-height: 24px;
+    margin-top: 107px;
+    text-align: center;
+}
+.main5 .content .hezhi {
+    width: 100%;
+    height: 132px;
+    border-bottom: 1px solid #e6e6e6;
+    
+}
+.main5 .content .hezhi .hezhi1 {
+    width: 285px;
+    height: 100%;
+    /* background-color: rgb(161, 43, 43); */
+    float: left;
+}
+.main5 .content .hezhi .hezhi1 span {
+    display: block;
+    margin: 0 100px;
+    width: 80px;
+    height: 80px;
+    background: url(../images/cf-images/exp_xtb.png) no-repeat 0 0;
+}
+.main5 .content .hezhi p {
+    text-align: center;
+    color: #b2b2c2;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.main5 .content .hezhi .hezhi2 {
+    width: 285px;
+    height: 100%;
+    /* background-color: rgb(161, 43, 43); */
+    float: left;
+}
+.main5 .content .hezhi .hezhi2 span {
+    display: block;
+    margin: 0 100px;
+    width: 80px;
+    height: 80px;
+    background: url(../images/cf-images/exp_xtb.png) no-repeat 0 -80px;
+}
+.main5 .content .hezhi .hezhi3 {
+    width: 285px;
+    height: 100%;
+    /* background-color: rgb(161, 43, 43); */
+    float: left;
+}
+.main5 .content .hezhi .hezhi3 span {
+    display: block;
+    margin: 0 100px;
+    width: 80px;
+    height: 80px;
+    background: url(../images/cf-images/exp_xtb.png) no-repeat 0 -160px;
+}
+
+.main5 .content .hezhi .hezhi4 {
+    width: 285px;
+    height: 100%;
+    /* background-color: rgb(161, 43, 43); */
+    float: left;
+}
+.main5 .content .hezhi .hezhi4 span {
+    display: block;
+    margin: 0 100px;
+    width: 80px;
+    height: 80px;
+    background: url(../images/cf-images/exp_xtb.png) no-repeat 0 -240px;
+}
+
+.main5 .content .main5_b {
+    width: 100%;
+    height: 460px;
+    margin-top: 50px;
+    background: url(../images/cf-images/expe_liu_tu.png) no-repeat 0 0;
+}
+/* main5 模块样式 ----结束 */
+
+
+/* main6 模块样式 ----开始 */
+#box .main6 {
+    width: 100%;
+    height: 224px;
+    background-color: #0067c8;
+}
+.main6 .content .pig1 {
+   width: 380px;
+   height: 132px;
+   float: left;
+   /* background-color: rgb(219, 78, 78); */
+   margin: 46px 0;
+   text-align: center;
+}
+.main6 .content .title {
+    position: relative;
+    
+}
+.main6 .content .pig_t {
+    font-size: 70px;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    
+}
+.main6 .content .pig1 .through {
+    position: absolute;
+    width: 100%;
+    height: 3px;;
+    background-image: url(../images/cf-images/blue-bg.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main6 .content p {
+   color: #fff;
+   line-height: 16px;
+   margin-top: 30px;
+}
+.main6 .content .pig2 {
+    width: 380px;
+    height: 132px;
+    float: left;
+    /* background-color: rgb(219, 78, 78); */
+    margin: 46px 0;
+    border-left: 1px solid #0052a7;
+    text-align: center;
+ }
+ .main6 .content .pig2 .through {
+    position: absolute;
+    width: 100%;
+    height: 3px;;
+    background-image: url(../images/cf-images/blue-bg.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main6 .content .pig3 {
+    width: 380px;
+    height: 132px;
+    float: left;
+    /* background-color: rgb(219, 78, 78); */
+    margin: 46px 0;
+    border-left: 1px solid #0052a7;
+    text-align: center;
+ }
+.main6 .content .pig3 .through {
+    position: absolute;
+    width: 100%;
+    height: 3px;;
+    background-image: url(../images/cf-images/blue-bg.png);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* main6 模块样式 ----结束 */
+
+/* footer 模块样式 ----开始 */
+ #box .footer {
+     width: 100%;
+     height: 661px;
+     background: url(../images/cf-images/footer_bj.jpg) no-repeat 0 0;
+ }
+ .footer .content .footer_t {
+     width: 100%;
+     height: 388px;
+     background: url(../images/cf-images/contact_h2.png) no-repeat center 40px;
+     overflow: hidden;
+ }
+ .footer .content .footer_t h3 {
+     color: #fff;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 126px;
+     
+ }
+ .footer .content .footer_t .lianxi {
+     width: 100%;
+     height: 52px;
+     /* background-color: rgb(236, 31, 31); */
+     margin-top: 50px;
+ }
+ .footer .content .footer_t .lianxi .tel{ 
+     width: 266px;
+     height: 100%;
+     background: url(../images/cf-images/foot_tel.png) no-repeat 0 0;
+     overflow: hidden;
+     float: left;
+ }
+ .footer .content .footer_t .lianxi .tel h4 {
+     color: #cbcbcb;
+     line-height: 16px;
+     margin-left: 70px;
+ }
+ .footer .content .footer_t .lianxi .tel p {
+     color: #fff;
+     line-height: 16px;
+     margin: 8px 0 0 70px;
+ }
+
+
+ .footer .content .footer_t .lianxi .wx{ 
+    width: 266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_wx.png) no-repeat 0 0;
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+}
+.footer .content .footer_t .lianxi .wx h4 {
+    color: #cbcbcb;
+    line-height: 16px;
+    margin-left: 70px;
+}
+.footer .content .footer_t .lianxi .wx p {
+    color: #fff;
+    line-height: 16px;
+    margin: 8px 0 0 70px;
+}
+
+
+.footer .content .footer_t .lianxi .qq{ 
+    width: 266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_qq.png) no-repeat 0 0;
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+}
+.footer .content .footer_t .lianxi .qq h4 {
+    color: #cbcbcb;
+    line-height: 16px;
+    margin-left: 70px;
+}
+.footer .content .footer_t .lianxi .qq p {
+    color: #fff;
+    line-height: 16px;
+    margin: 8px 0 0 70px;
+}
+
+
+
+.footer .content .footer_t .lianxi .zx{ 
+    width: 266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_qq.png) no-repeat 0 0;
+    overflow: hidden;
+    float: left;
+    margin-left: 28px;
+}
+.footer .content .footer_t .lianxi .zx h4 {
+    color: #cbcbcb;
+    line-height: 16px;
+    margin-left: 70px;
+}
+.footer .content .footer_t .lianxi .zx p {
+    color: #fff;
+    line-height: 16px;
+    margin: 8px 0 0 70px;
+}
+
+
+
+
+.footer .content .footer_t .ico {
+    width: 100%;
+    height: 82px;
+    /* background-color: rgb(236, 31, 31); */
+    margin-top: 50px;
+}
+.footer .content .footer_t .ico .ico1 {
+    width:266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_c1.png) no-repeat 0 0;
+    border: 1px solid #aaa;
+    float: left;
+}
+.footer .content .footer_t .ico .ico1 p {
+    font-size: 18px;
+    color: #aaa;
+    margin-left: 70px;
+    line-height: 80px;
+}
+
+
+.footer .content .footer_t .ico .ico2 {
+    width:266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_c2.png) no-repeat 0 0;
+    border: 1px solid #aaa;
+    float: left;
+    margin-left: 26px;
+}
+.footer .content .footer_t .ico .ico2 p {
+    font-size: 18px;
+    color: #aaa;
+    margin-left: 70px;
+    line-height: 80px;
+}
+
+
+.footer .content .footer_t .ico .ico3 {
+    width:266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_c3.png) no-repeat 0 0;
+    border: 1px solid #aaa;
+    float: left;
+    margin-left: 26px;
+}
+.footer .content .footer_t .ico .ico3 p {
+    font-size: 18px;
+    color: #aaa;
+    margin-left: 70px;
+    line-height: 80px;
+}
+
+.footer .content .footer_t .ico .ico4 {
+    width:266px;
+    height: 100%;
+    background: url(../images/cf-images/foot_c4.png) no-repeat 0 0;
+    border: 1px solid #aaa;
+    float: left;
+    margin-left: 26px;
+}
+.footer .content .footer_t .ico .ico4 p {
+    font-size: 18px;
+    color: #aaa;
+    margin-left: 70px;
+    line-height: 80px;
+}
+.footer .content .footer_b {
+    width: 100%;
+    height: 268px;
+    border-bottom: 1px solid #4d4d4d;
+    overflow: hidden;
+    background: url(../images/cf-images/ewm1.png) no-repeat 818px 50px,
+    url(../images/cf-images/ewm2.png) no-repeat 978px 50px;
+}
+.footer .content .footer_b p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 29px;
+    margin-top: 50px;
+    
+}
+/* footer 模块样式 ----结束 */
