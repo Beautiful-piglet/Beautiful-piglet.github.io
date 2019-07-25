@@ -6,3 +6,6 @@
 <p><a href="https://beautiful-piglet.github.io/day06_code/html/%E5%AF%BC%E8%88%AA%E6%A0%8F%E7%BB%83%E4%B9%A01.html">练习</a></p>
 
 <p><a href="https://beautiful-piglet.github.io/day06_code/html/%E5%AF%BC%E8%88%AA%E6%A0%8F%E7%BB%83%E4%B9%A02.html">练习二</a></p>
+
+<p><a href="https://beautiful-piglet.github.io/day04_code/html/%E7%9F%B3%E5%AE%87%E7%BD%91%E7%BB%9C.html">石宇网页</a></p>
+           
