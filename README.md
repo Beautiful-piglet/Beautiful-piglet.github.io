@@ -13,4 +13,4 @@
 <p><a href="https://beautiful-piglet.github.io/day09_code/html/%E5%B0%8F%E9%B9%BF%E7%BB%83%E4%B9%A0.html">小鹿网页</a></p>
 
 <h2>day13作业</h2>         
-<p><a href="https://beautiful-piglet.github.io/day13_code/html/%E5%A9%9A%E7%A4%BC.html">小鹿网页</a></p>
+<p><a href="https://beautiful-piglet.github.io/day13_code/html/%E5%A9%9A%E7%A4%BC.html">婚礼纪网页</a></p>
