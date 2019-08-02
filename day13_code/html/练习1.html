@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    html,
+    body {
+        height: 100%;
+    }
+    .box {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box header, 
+    .box footer {
+        height: 50px;
+        background-color: #666;
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+    }
+    .box main {
+        display: flex;
+        flex: 1;
+        background-color: #d6d6d6;
+        width: 100%;
+        text-align: center;
+        flex-direction: row;
+    }
+    .box main section {
+        flex: 1;
+    }
+    .box main nav {
+      width: 192px;
+      background-color: #8fbad9;
+    }
+    .box main aside {
+        width: 160px;
+        background-color: #e46e51;
+    }
+    </style>
+</head>
+<body>
+     <div class="box">
+         <header>header</header>
+         <main>
+             <nav>nav</nav>
+             <section>main</section>
+             <aside>aside</aside>
+         </main>
+         <footer>footer</footer>
+     </div>
+</body>
+</html>
