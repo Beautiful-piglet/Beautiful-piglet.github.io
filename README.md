@@ -20,8 +20,8 @@
 <p><a href="https://beautiful-piglet.github.io/%E9%A5%BF%E4%BA%86%E5%90%97/html/elm.html">饿了吗</a></p>
 
 <h2>测试</h3>
-<p><a herf="https://beautiful-piglet.github.io/%E6%B5%8B%E8%AF%95/pc%E7%AB%AF/html/ys.html">pc端（医生工作站）</a></p>
-<p><a herf="https://beautiful-piglet.github.io/%E6%B5%8B%E8%AF%95/%E7%A7%BB%E5%8A%A8%E7%AB%AF/html/%E6%89%BE%E6%88%BF%E7%BD%91.html">移动端（找房网）</a></p>
+<p><a href="https://beautiful-piglet.github.io/测试/pc端/html/ys.html">pc端（医生工作站）</a></p>
+<p><a href="https://beautiful-piglet.github.io/测试/移动端/html/找房网.html">移动端（找房网）</a></p>
 
 
 
